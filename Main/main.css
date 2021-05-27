@@ -1,0 +1,58 @@
+body{
+    background: url("world_img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#img{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#container div{
+    height: 940px;
+    background-color: black;
+    opacity: 0.5;
+    flex: 1;
+    border: solid 1px gray;
+    color: white;
+    text-align: center;
+}
+
+#container div:hover{
+    opacity: 0.9;
+}
+
+#container div:hover > span{
+    visibility: visible;
+}
+
+#container div span{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    visibility: hidden;
+}
+
+#container div h2{
+    color: white;
+    position: relative;
+    top: 60%;
+}
+
+
+
